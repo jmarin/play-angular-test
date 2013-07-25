@@ -6,7 +6,7 @@ Sample project for [Play Framework] (http://www.playframework.com/) and [Angular
 Dependencies
 ------------
 
-The following dependencies are expected (installation for Mac OS X included)
+The following dependencies are expected (installation is for Mac OS X)
 
 1. Play Framework
 
