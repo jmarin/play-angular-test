@@ -3,10 +3,10 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index
+#GET     /                           controllers.Application.index
 
 #If you want to route the root to AngularJS client
-# GET     /                           com.tuplejump.playYeoman.Yeoman.redirectRoot(base="/ui/")
+GET     /                           com.tuplejump.playYeoman.Yeoman.redirectRoot(base="/ui/")
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
@@ -14,3 +14,9 @@ GET     /assets/*file               controllers.Assets.at(path="/public", file)
 GET     /ui                     com.tuplejump.playYeoman.Yeoman.index
 
 ->      /ui/                    yeoman.Routes
+
+
+GET     /template               controllers.Application.template
+
+
+GET     /api                    controllers.Application.api

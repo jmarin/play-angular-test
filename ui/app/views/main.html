@@ -1,9 +1,17 @@
 <div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
+  <h2>Play + AngularJS</h2>
   <p>You now have</p>
   <ul>
       <li ng-repeat="thing in awesomeThings">{{thing}}</li>
   </ul>
+  <p>Up to here this is AngularJS</p>
+
+  <div ng-controller="MainCtrl">
+
+  	<div ng-bind-html-unsafe="template"></div>
+
+  </div>
+
   <p>installed.</p>
   <h3>Enjoy coding! - Yeoman</h3>
 </div>
